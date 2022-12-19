@@ -1,0 +1,65 @@
+.auth-box-parent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* border-radius: 4px; */
+  /* box-shadow: inset 0 0 15px 4px rgb(0 0 0 / 6%), 0 0 15px 4px rgb(0 0 0 / 6%); */
+  max-height: 100%;
+  max-width: 100%;
+  width: 508px;
+  /* width: 478px; */
+}
+
+.auth-box-child {
+  /* background-color: #fff; */
+  /* border: 1px solid #e3e3e3; */
+  /* border-radius: 16px; */
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+  padding: 48px;
+  left: 0;
+  position: relative;
+  top: 0;
+  text-align: left;
+  width: 100%;
+}
+.auth-box-child-mobile {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+  padding: 35px;
+  left: 0;
+  position: relative;
+  top: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.forgot-password {
+  margin-top: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.custom-link {
+  color: "#0d6efd" !important;
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+.small-text {
+  font-size: 13px !important;
+}
+
+.image-width {
+  width: 25% !important;
+}
+
+@media screen and (max-width: 760px) {
+  .image-width {
+    width: 40% !important;
+  }
+}
